@@ -4,7 +4,7 @@
     <div class="container py-5">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h1 class="fw-bold">📚 Liste des Livres</h1>
-            <a href="{{ route('livres.create') }}" class="btn btn-success">➕ Ajouter un livre</a>
+            
         </div>
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -20,7 +20,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title fw-bold">{{ $livre->titre }}</h5>
                             <p class="card-text text-muted mb-2">✍️ <strong>Auteur:</strong> {{ $livre->auteur }}</p>
-                            <p class="card-text text-success fs-5 fw-bold">💰 {{ $livre->prix }} €</p>
+                            <p class="card-text text-success fs-5 fw-bold">💰 {{ $livre->prix }} Fcfa</p>
                             <p class="card-text text-secondary">📦 <strong>Stock:</strong> {{ $livre->stock }} en stock</p>
                         </div>
                         <div class="card-footer bg-light d-flex justify-content-between align-items-center border-0 rounded-bottom-4">

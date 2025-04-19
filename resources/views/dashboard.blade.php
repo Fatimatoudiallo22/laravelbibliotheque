@@ -4,7 +4,7 @@
             {{ __('Dashboard') }}
         </h2>
         <h1 class="mt-2">
-            Bienvenue Mr {{ Auth::user()->prenom }}
+            Bienvenue Mr/Mme {{ Auth::user()->prenom }}
         </h1>
     </x-slot>
 
